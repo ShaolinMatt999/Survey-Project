@@ -6,6 +6,8 @@
 body {
     text-align: center;
     background-color: aqua;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
 }
 
 header {
@@ -21,4 +23,26 @@ li {
 li:hover {
     color: brown;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+//visibility specs//
+
+.q1 {
+    display: block;
+}
+
+.q2 {
+    display: none;
+}
+
+.q3 {
+    display: none;
+}
+
+.q4 {
+    display: none;
+}
+
+.q5 {
+    display: none;
 }
