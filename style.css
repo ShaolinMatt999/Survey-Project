@@ -4,16 +4,36 @@
 }
 
 body {
-    text-align: center;
-    background-color: aqua;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium';
+    display: grid;
+    place-items: center;
+    justify-content: center;
 }
 
-header {
-    background-color: blue;
-    padding: 10px;
+
+#vid {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.survey-body {
+    width: 400px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+    z-index: 1;
 }
+
 
 li {
     text-decoration: none;
@@ -21,11 +41,15 @@ li {
 }
 
 li:hover {
-    color: brown;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
+        color: rgb(255, 243, 16);
+        transition: 1s ease;
+    }
 
-//visibility specs//
+
+
+
+
+//visibility specs before JS//
 
 .q1 {
     display: block;
@@ -44,5 +68,9 @@ li:hover {
 }
 
 .q5 {
+    display: none;
+}
+
+.thanks {
     display: none;
 }
