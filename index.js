@@ -15,6 +15,7 @@ const q5 = document.querySelector(".q5")
 const thanks = document.querySelector(".thanks")
 
 //Click Actions thru questions
+//Event listeners
 
 ul_1.addEventListener("click", function(){
     q1.style.display = "none";
